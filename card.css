@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&family=Lexend+Deca:wght@200&display=swap');
+
+body{
+    color: white;
+}
+
+body h1 {
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+body p {
+    font-family:'Lexend Deca', sans-serif;
+}
+
+#container {    
+    margin: 0 auto;
+    height: 500px;
+    width: 1000px;
+    background-color: grey;
+    display: flex;
+}
+
+.titulo {
+    display: flex;
+    margin-top:20px ;
+}
+
+.titulo i {
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.titulo h1 {
+    margin-left:10px;
+}
+
+.card-sedan {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.card-sedan p, .botao {
+    margin-top: 80px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.card-suv {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.card-suv p {
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.card-suv p, .botao  {
+    margin-top: 80px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.card-luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.card-luxury p {
+    margin-left: 15px;
+    margin-right: 8px;
+}
+
+.card-luxury p, .botao {
+    margin-top: 79px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.botao{
+    border: white 2px solid;
+    border-radius: 30px;
+    margin-left: 50px;
+    width: 180px;
+    height: 55px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.botao p {
+    margin-top: 18px;
+    margin-left: 5px;
+}
+
+.botao a {
+    text-decoration: none;
+    color: white;
+}
+
